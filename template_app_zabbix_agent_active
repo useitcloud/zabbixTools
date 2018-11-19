@@ -7,6 +7,42 @@
     "format": "xml",
     "rules": {
       "templates": {
+                "createMissing": true,
+                "updateExisting": true
+      },
+      "items": {
+        "createMissing": true,
+        "updateExisting": true
+      },
+      "templateLinkage": {
+        "createMissing": true
+      },
+      "graphs": {
+        "createMissing": true,
+        "updateExisting": true
+      },
+      "applications": {
+        "createMissing": true
+      },
+      "templateScreens": {
+        "createMissing": true,
+        "updateExisting": true
+      },
+      "triggers": {
+        "createMissing": true,
+        "updateExisting": true
+      },
+      "valueMaps": {
+        "createMissing": true
+      },
+      "groups": {
+        "createMissing": true
+      },
+      "discoveryRules": {
+        "createMissing": true,
+        "updateExisting": true
+      },
+      "httptests": {
         "createMissing": true,
         "updateExisting": true
       }
